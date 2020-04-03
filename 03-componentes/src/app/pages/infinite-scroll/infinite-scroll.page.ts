@@ -1,0 +1,37 @@
+import {Component, OnInit, ViewChild} from '@angular/core';
+import {IonInfiniteScroll} from '@ionic/angular';
+
+@Component({
+    selector: 'app-infinite-scroll',
+    templateUrl: './infinite-scroll.page.html',
+    styleUrls: ['./infinite-scroll.page.scss'],
+})
+export class InfiniteScrollPage implements OnInit {
+
+    @ViewChild(IonInfiniteScroll, {static: false}) infiniteScroll: IonInfiniteScroll;
+
+    data: any[] = Array(50);
+
+    constructor() {
+    }
+
+    ngOnInit() {
+    }
+
+    loadData(event) {
+        console.log('Cargando...');
+        setTimeout(() => {
+            if (this.data.length > 100) {
+
+                event.target.complete();
+                // event.detail.complete();
+                this.infiniteScroll.disabled = true;
+                return;
+            }
+            const nuevoArr = Array(20);
+            this.data.push(...nuevoArr);
+            event.target.complete();
+            // event.detail.complete();
+        });
+    }
+}

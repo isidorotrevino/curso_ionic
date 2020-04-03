@@ -1,0 +1,112 @@
+[
+  {
+    "icon": "american-football",
+    "name": "Action Sheet",
+    "redirectTo": "/action-sheet"
+  },
+  {
+    "icon": "app-store",
+    "name": "Alert",
+    "redirectTo": "/alert"
+  },
+  {
+    "icon": "beaker",
+    "name": "Avatar",
+    "redirectTo": "/avatar"
+  },
+  {
+    "icon": "radio-button-on",
+    "name": "Botones",
+    "redirectTo": "/botones"
+  },
+  {
+    "icon": "card",
+    "name": "Card",
+    "redirectTo": "/card"
+  },
+  {
+    "icon": "checkmark-circle-outline",
+    "name": "Check",
+    "redirectTo": "/check"
+  },
+  {
+    "icon": "calendar",
+    "name": "Date Time",
+    "redirectTo": "/date-time"
+  },
+  {
+    "icon": "car",
+    "name": "Fab",
+    "redirectTo": "/fab"
+  },
+  {
+    "icon": "grid",
+    "name": "Grid",
+    "redirectTo": "/grid"
+  },
+  {
+    "icon": "infinite",
+    "name": "Infinite Scroll",
+    "redirectTo": "/infinite-scroll"
+  },
+  {
+    "icon": "hammer",
+    "name": "Input - Forms",
+    "redirectTo": "/input"
+  },
+  {
+    "icon": "list",
+    "name": "Lists",
+    "redirectTo": "/list"
+  },
+  {
+    "icon": "reorder",
+    "name": "Lists Reorder",
+    "redirectTo": "/list-reorder"
+  },
+  {
+    "icon": "refresh-circle",
+    "name": "Loading",
+    "redirectTo": "/loading"
+  },
+  {
+    "icon": "phone-portrait",
+    "name": "Modal",
+    "redirectTo": "/modal"
+  },
+  {
+    "icon": "tablet-portrait",
+    "name": "Popover",
+    "redirectTo": "/popover"
+  },
+  {
+    "icon": "code-working",
+    "name": "Progress Bar",
+    "redirectTo": "/progress-bar"
+  },
+  {
+    "icon": "arrow-round-down",
+    "name": "Refresher",
+    "redirectTo": "/refresher"
+  },
+  {
+    "icon": "search",
+    "name": "Search bar",
+    "redirectTo": "/searchbar"
+  },
+  {
+    "icon": "copy",
+    "name": "Segment",
+    "redirectTo": "/segment"
+  },
+  {
+    "icon": "albums",
+    "name": "Slides",
+    "redirectTo": "/slide"
+  },
+  {
+    "icon": "cog",
+    "name": "Tabs",
+    "redirectTo": "/tabs/account"
+  }
+]

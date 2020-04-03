@@ -1,0 +1,7 @@
+<ion-list>
+  <ion-item *ngFor="let i of items; let j = index"
+    (click)="onClick(j+1)">
+    <ion-label>Item {{ j + 1 }}</ion-label>
+  </ion-item>
+
+</ion-list>

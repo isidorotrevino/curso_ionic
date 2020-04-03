@@ -1,0 +1,23 @@
+<app-header titulo="Grid"></app-header>
+
+<ion-content fullscreen="">
+    <ion-grid fixed>
+        <ion-row>
+            <ion-col *ngFor="let i of [1,1,1,1,1,1,1,1,1,1,1,1]; let c = index">{{c}}</ion-col>
+
+        </ion-row>
+        <ion-row>
+            <ion-col *ngFor="let i of [1,1,1,1,1,1,1,1,1,1,1,1];" size="12" size-lg="3" size-md="4" size-sm="6" size-xs="12">
+                <ion-card>
+    <ion-img src="/assets/shapes.svg"></ion-img>
+                  <ion-card-header>
+                    <ion-card-subtitle>Subtitle</ion-card-subtitle>
+                    <ion-card-title>title</ion-card-title>
+                  </ion-card-header>
+                  <ion-card-content>Content</ion-card-content>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+
+</ion-content>
