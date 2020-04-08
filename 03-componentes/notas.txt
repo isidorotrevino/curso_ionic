@@ -1,0 +1,9 @@
+ionic cordova prepare android
+ionic cordova build android
+ionic cordova run android --target=Pixel_2_XL_API_28
+cordova platform rm android
+ionic cordova platform add android
+npm i -g cordova-res
+ionic cordova resources android --force
+native-run android --list
+
