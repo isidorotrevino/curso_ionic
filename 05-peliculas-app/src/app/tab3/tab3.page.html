@@ -1,0 +1,23 @@
+<ion-content [fullscreen]="true">
+    <ion-grid>
+        <ion-row>
+            <ion-col>
+                <h3>Favoritos</h3>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+
+    <div *ngFor="let gen of generos">
+        <ion-grid *ngIf="peliGeneros[gen.name].length>0">
+            <ion-row>
+                <ion-col >
+                    <h4>{{gen.name}}</h4>
+                    <app-slideshow-poster [peliculas]="peliGeneros[gen.name]"></app-slideshow-poster>
+                </ion-col>
+
+            </ion-row>
+
+        </ion-grid>
+
+    </div>
+</ion-content>

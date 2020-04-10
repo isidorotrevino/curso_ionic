@@ -12,12 +12,14 @@ import {HttpClientModule} from '@angular/common/http';
 import {InAppBrowser} from '@ionic-native/in-app-browser/ngx';
 import {SocialSharing} from '@ionic-native/social-sharing/ngx';
 import {IonicStorageModule} from '@ionic/storage';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
     declarations: [AppComponent],
     entryComponents: [],
     imports: [BrowserModule, HttpClientModule, IonicStorageModule.forRoot(),
-        IonicModule.forRoot(), AppRoutingModule],
+        IonicModule.forRoot(), AppRoutingModule, ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })],
     providers: [
         StatusBar,
         SplashScreen,
