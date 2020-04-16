@@ -1,0 +1,8 @@
+{
+  "appId": "com.wintermute",
+  "appName": "qrscanner",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {}
+}
