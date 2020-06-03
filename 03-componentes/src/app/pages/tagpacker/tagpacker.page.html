@@ -1,0 +1,10 @@
+<app-header titulo="TagPacker"></app-header>
+<ion-content>
+  <ion-list #lista style="height: 30%; overflow: auto;">
+    <ion-item *ngFor="let tag of tags">
+      <ion-label>{{tag}}</ion-label>
+    </ion-item>
+  </ion-list>
+  <hr>
+  <ion-button expand="full" (click)="cargarTags()">Cargar tags</ion-button>
+</ion-content>

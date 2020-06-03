@@ -1,0 +1,19 @@
+var tags=[];
+document.querySelectorAll('.linklist-item').forEach(item=>{
+  var tag={};
+   tag['title']=(item.querySelector('.linklist-item-title h2 .linklist-link')?
+        item.querySelector('.linklist-item-title h2 .linklist-link').innerText:
+        '');
+   tag['description']=(item.querySelector('.linklist-item-description')?
+        item.querySelector('.linklist-item-description').innerText:
+        '');
+   tag['link']=(item.querySelector('.linklist-item-infos-url a')?
+        item.querySelector('.linklist-item-infos-url a').innerText:
+         '');
+  var ts=[];
+  item.querySelectorAll('.label.label-tag a').forEach(t =>{
+      ts.push({"name":t.innerText});
+  });
+  tag['tags']=ts;
+  tags.push(tag);
+});

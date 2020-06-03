@@ -1,0 +1,31 @@
+<ion-header [translucent]="true" no-border>
+  <ion-toolbar>
+    <ion-title>
+      Push App
+    </ion-title>
+      <ion-buttons slot="end">
+          <ion-button (click)="eliminar()" color="danger">
+              <ion-icon solt="start" name="trash" ></ion-icon>
+          </ion-button>
+      </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+ <ion-list>
+     <ion-list-header>
+         <ion-label>User Id - {{pushSrv.userId}}</ion-label>
+     </ion-list-header>
+   <ion-list-header>
+     <ion-label>Mensajes</ion-label>
+   </ion-list-header>
+
+    <ion-label *ngFor="let p of mensajes">
+      <h3>{{p.title}}</h3>
+      <p>{{p.body}}</p>
+      <p>{{p.additionalData| json}}</p>
+
+    </ion-label>
+
+ </ion-list>
+</ion-content>

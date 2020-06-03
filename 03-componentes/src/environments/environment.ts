@@ -3,7 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  tagPackerApi: '5d2e39e564ce751324bddde8:f83d52c8-be53-4dbb-b079-241235a3d868',
+  tagPackerUser: '5d2e39e564ce751324bddde8',
+  tagPackerUrl: 'https://tagpacker.com/api/users/'
 };
 
 /*

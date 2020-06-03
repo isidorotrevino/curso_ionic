@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Deploying a DNS Server using Docker - SAMEER NAIK",
+    "description": "",
+    "link": "http://www.damagehead.com/blog/2015/04/28/deploying-a-dns-server-using-docker/",
+    "tags": "[{\"name\":\"bind\"},{\"name\":\"dns\"},{\"name\":\"docker\"}]"
+  },
+  {
+    "title": "Deploying JavaFX Applications - Self-Contained Application Packaging",
+    "description": "",
+    "link": "https://docs.oracle.com/javafx/2/deployment/self-contained-packaging.htm",
+    "tags": "[{\"name\":\"javafx\"}]"
+  }
+]

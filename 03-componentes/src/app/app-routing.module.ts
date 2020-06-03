@@ -95,6 +95,10 @@ const routes: Routes = [
     path: 'tabs',
     loadChildren: () => import('./pages/tabs/tabs.module').then( m => m.TabsPageModule)
   },
+  {
+    path: 'tagpacker',
+    loadChildren: () => import('./pages/tagpacker/tagpacker.module').then( m => m.TagpackerPageModule)
+  },
 
   
 ];

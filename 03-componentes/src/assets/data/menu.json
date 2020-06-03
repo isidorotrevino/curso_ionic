@@ -108,5 +108,10 @@
     "icon": "cog",
     "name": "Tabs",
     "redirectTo": "/tabs/account"
+  },
+  {
+    "icon": "cog",
+    "name": "Tag Packer",
+    "redirectTo": "/tagpacker"
   }
 ]
